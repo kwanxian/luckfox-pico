@@ -256,9 +256,9 @@ BUSYBOX_VER ?= busybox-1.27.2
 BUSYBOX_DIR ?= $(SYSDRV_DIR)/source/busybox
 
 BUILDROOT_CFG ?= config_normal
-BUILDROOT_VER ?= buildroot-2023.02.6
-# BUILDROOT_VER ?= buildroot-2023.02.8
 # BUILDROOT_VER ?= buildroot-2022.11.3
+# BUILDROOT_VER ?= buildroot-2023.02.6
+BUILDROOT_VER ?= buildroot-2023.02.8
 BUILDROOT_DIR := $(SYSDRV_DIR)/source/buildroot
 
 UBUNTU_VER ?= luckfox-ubuntu-22.04.3
